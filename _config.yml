@@ -13,7 +13,7 @@ email: ottotahtracing@gmail.com
 name: Otto Täht
 # description: > 
   # A blog about my journey.
-baseurl: "/my-blog" # the subpath of your site, e.g. /blog/
+baseurl: "/my-blog/" # the subpath of your site, e.g. /blog/
 url: "http://ottoste.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
@@ -23,29 +23,29 @@ markdown: kramdown
 paginate: 5
 paginate_path: "/page:num/"
 
-# Archive settings (see https://github.com/jekyll/jekyll-archives/)
-jekyll-archives: 
-  enabled: 
-    - categories
-    - tags
-  layout: 'archive'
-  permalinks:
-    category: '/category/:name/'
-    tag: '/tag/:name/'
+#Archive settings (see https://github.com/jekyll/jekyll-archives/)
+# jekyll-archives: 
+#   enabled: 
+#     - categories
+#     - tags
+#   layout: 'archive'
+#   permalinks:
+#     category: '/category/:name/'
+#     tag: '/tag/:name/'
 
-# Disqus comments
-disqus_shortname: ottoste
+# # Disqus comments
+# disqus_shortname: ottoste
 
 # Google analytics
 # ga_tracking_id: "UA-XXXX-1"
 
 # Category descriptions (for archive pages)
-descriptions:
-  - cat: Elixir
-    desc: "Posts about Elixir programming language."
+# descriptions:
+#   - cat: Elixir
+#     desc: "Posts about Elixir programming language."
 
-  - cat: Resources
-    desc: "Posts where I gather useful resources for given topic"
+#   - cat: Resources
+#     desc: "Posts where I gather useful resources for given topic"
 
 # Social icons and sharing options
 #
