@@ -13,7 +13,7 @@ email: ottotahtracing@gmail.com
 name: Otto Täht
 # description: > 
   # A blog about my journey.
-baseurl: "/my_blog/" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ottoste.github.io" # the base hostname & protocol for your site
 cover: "assets/header_image.jpg"
 logo: "assets/logo.png"
